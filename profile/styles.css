@@ -1,0 +1,87 @@
+.navbar{
+    display: flex;
+    background-color: rgb(38, 34, 15);
+    width:100vw;
+    height:20vh;
+    border-bottom: 2vh solid rgb(2, 85, 85);
+}
+
+.name{
+    margin: 20px;
+    margin-left: 490px;
+    font-size: 90px;
+    font-family: "Lobster",sans-serif;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+.myImage{
+    width: 30vw;
+    height: 80vh;
+}
+
+.myImage img{
+    height: 100%;
+    width: 100%;
+    border-right: solid 30px rgb(37, 37, 37);
+}
+
+
+.content{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.two{
+    display: flex;
+    flex-direction: row;    
+}
+
+.projects img{
+    height: 170px;
+    width: 200px;
+    margin: 40px;
+    margin-top: 100px;
+    margin-left: 60px;
+
+}
+.social img{
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+span{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects, .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: rgb(11, 37, 66);
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    border:10px solid rgb(175, 141, 61);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
